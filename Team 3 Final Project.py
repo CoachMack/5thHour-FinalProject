@@ -77,4 +77,4 @@ if matched:
         else:
             print("Pick a valid number from the list! 😤")
 else:
-    print("\nNo matches today... time to cry-eat ice cream 😢🍦")
+    print("\nNo matches today... time to cry- 😢")
