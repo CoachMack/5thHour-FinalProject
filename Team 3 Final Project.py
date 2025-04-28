@@ -1,4 +1,4 @@
-#Names: Dom, Ethan, Eli, Quinn
+#Names: Dom Acuna, Ethan Morris, Eli Hopkins, Quinn Dickey
 #Team: 3
 #Class: 5th Hour
 #Assignment: Final Project
