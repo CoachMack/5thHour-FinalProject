@@ -1,9 +1,6 @@
-#Names: Zachary Martin, Kevin Zheng, Preston Bidwell, Ethan Wright, Sam Raymond
-#Team: 1
-#Class: 5th Hour
-#Assignment: Final Project
-
-#Scrum Document: https://docs.google.com/document/d/1xLITZ3sbBAi-nxTY1c0BQ9JA3w3nUmJXvG8FJAbmSRQ/edit?tab=t.0
+#Name Zachary Martin, Kevin Zheng, Samuel Raymond, Ethan Wright
+#Assignment: Final Project Scrum
+#https://docs.google.com/document/d/1xLITZ3sbBAi-nxTY1c0BQ9JA3w3nUmJXvG8FJAbmSRQ/edit?tab=t.0
 
 import random
 import time
@@ -38,7 +35,7 @@ def Samuel():
         else:
             print ("pick again")
 
-        print ("you have collected a bunch of wood")
+        print ("you have now collected a bunch of wood")
         print ("do you build a house or go mining")
         print ("put in house or mine")
         sam1 = input()
@@ -123,8 +120,8 @@ def Samuel():
         else:
             print("pick again")
 
-        print("you have chosen samuels minecraft adventure")
-        print("you have apeard in the world on MINECRAFT and you are in hardcore")
+        print("you have chosen Samuels minecraft adventure")
+        print("you have appeared now in the world on MINECRAFT and you are in hardcore")
         print("you have two options try to find a village or chop a tree to get wood")
         print("put in tree or village")
         sam1 = input()
@@ -134,6 +131,7 @@ def Samuel():
             print("village")
         else:
             print("pick again")
+
 def Kevin():
     print("well monkey you seem to have choosen me. Well what do u want to hunt")
     path = input("Choose: Slime or Goblin")
@@ -159,14 +157,19 @@ def slime():
         print("you are going to sneak around")
         slimesneak()
 def slimeheadon():
-    print("djflka")
+    print("Why would u choose to do this you died no ending you are a goober")
+    print("ggez no ending")
+    quit()
 def slimesneak():
-    print("adjlkfja")
+    print("This doesn't work either goon you shouldn't have chosen this idiot.")
+    print("The God of this world kills u no ending HAHAHAHA")
+    quit()
 def goblin():
-    print("You walk through the trees, your footsteps light on the forest floor. "
-          "The Goblin Den is located deep within the rocky hills, and as you approach, the sounds of goblins laughing and shouting grow louder. "
-          "You spot a few goblins near the entrance, grinning mischievously as they make their way into the cave with stolen goods."
-          "You can either sneak up on them or confront them head-on. You have a variety of tools at your disposal, but you know goblins are tricky creatures.")
+    print("You walk through the trees, your footsteps light on the forest floor.")
+    print("The Goblin Den is located deep within the rocky hills, and as you approach, the sounds of goblins laughing and shouting grow louder.")
+    print("You spot a few goblins near the entrance, grinning mischievously as they make their way into the cave with stolen goods.")
+    print("You can either sneak up on them or confront them head-on. You have a variety of tools at your disposal, but you know goblins are tricky creatures.")
+    time.sleep(5)
     gobs = int(input("Choose: 1 Face the goblins head on or 2 sneak up on them"))
     if gobs  == 1:
         GobheadOn()
@@ -182,16 +185,23 @@ def GobheadOn():
         print("You push forward and fight")
         print(" A fresh wave of goblins scuttled over the stone like rats. You meet them with a roar, swinging his sword in great arcs, severing limbs, breaking skulls. ")
         print("You took wounds deep slashes across your ribs. The goblins surged. You killed three more then five. ")
+        time.sleep(3)
         print("But they were endless. Dawn came and you finally fell. Your sword lay beside you, soaked in blood, ")
         print(" As you take your last breath a goblin the last goblin looked at you, staring at you")
         print("By dawn, the goblins were gone and you a nameless figure were gone too")
         print("Ending 1 achieved THE GOAT")
+        time.sleep(2)
+        quit()
     if coward == 2:
-        print("You escaped with your life still intact and you wonder if you should go back and fight or stay")
+        print("You died on the way back idiot should've been watching the path you were walking on")
+        print("how do you step on a large comical spike idiot")
+        print("no ending for u ")
+        quit()
 def Gobsneak():
     print("You sneak around moved low through the hollow, where twisted roots formed natural tunnels beneath the earth. ")
     print("Every breath was slow, controlled. Every step tested before weight was given.")
     print("You reach the edge of the goblin territory")
+    time.sleep(5)
     choice2 = int(input("Chose: 1 Explore the root tunnel or 2 follow the ridge trail"))
     if choice2 == 1:
         rootTunnel()
@@ -202,59 +212,49 @@ def rootTunnel():
     print("As you crawl through the roots, you hear goblin voices echoing from up ahead. A patrol.")
     print("You tuck yourself into a muddy crevice, barely daring to breathe as their filthy feet squelch past. One stops... sniffs... but moves on.")
     print("You’ve reached the outer edge of the goblin camp. Fires flicker, and goblins drink, fight, and howl.")
-    choice3 = int(input("Choose: 1 You sneak into the leader's camp or 2 Cause a distraction"))
+    print("You head towards to the biggest structure and what you think is the captain of the goblins.")
+    print("You sneak in")
+    print("You noctice the captain sleeping")
+    print("You swiftly assinate the captain and you make your way out")
+    print("Ending 3 achieved JOHN CENA")
+    time.sleep(5)
+    quit()
 def ridgetrail():
-    print("ridgetrail")
+    print("You proceed on with this wet and moist trail heading deeper and deeper in the goblin's lair")
+    print("As you head closer towards the goblins a stray goblin noticed you")
+    print("You however don't notice him and as a result he stabs you.")
+    print("Ending 2 achieved TRASH AH DEATH")
+    quit()
+
 def Ethan():
-        print("Welcome to pirate Adventure!")
-        print("You are on a sandy beach, ready to explore.")
-        while True:
-            print("what do you do?")
-            print("1. Search the beach")
-            print("2. Go to the ship")
+    print("Welcome to pirate Adventure!")
+    print("You are on a sandy beach, ready to explore.")
+    while True:
+        print("what do you do?")
+        print("1. Search the beach")
+        print("2. Go to the ship")
 
-            choice = input("Enter your choice (1 or 2): ")
+        choice = input("Enter your choice (1 or 2): ")
 
-            if choice == "1":
-                print("You find a map to a treasure.")
-                action = input("What do you")
-                if action == "search":
-                    print("You find the treasure now you use all that treasure to go home")
-                elif choice == "2":
-                    print("You head towards the ship")
-                    action = input("What to do on the ship")
-                    if action == "sail":
-                        print("The ship sails to a island")
-                        print("You see a little town far way")
-                        action = input("What do you do")
-                        if action == "head toward town":
-                            print("right wen you walk in to town this guy ask you if you want a apple")
-                            action = input("what do you do")
-                            if action == "yes":
-                                print("You ")
-                            elif action == "no":
-                                print("you move on")
-                            else:
-                                print("I don't understand.")
-
-                    elif action == "home":
-                        print("You decide to go home to your family")
-                        break
-                    else:
-                        print("I don't understand")
-
-        print("You are on a pirate ship, sailing the high seas...")
-        while True:
-            action = input("What do you do? ").lower()
+        if choice == "1":
+            print("You find a map to a treasure.")
+            action = input("What do you do")
             if action == "search":
-                print("You find a map to a treasure!")
-            elif action == "sail":
-                print("The ship sails...")
-            elif action == "quit":
-                print("You decide to turn back...")
+                print("You find the treasure now you use all that treasure to go home")
                 break
-            else:
-                print("I don't understand.")
-
+        elif choice == "2":
+                print("You head towards the ship")
+                action = input("What to do on the ship. Print Sail.")
+                if action == "sail":
+                    print("The ship sails to a island")
+                    print("On the island you find treasure")
+                    print("full of gold")
+                    print("you take all the treasure and went home")
+                    break
+                elif action == "home":
+                    print("You decide to go home to your family")
+                    break
+                else:
+                    print("I don't understand")
 Start_Adventure()
 print("Thanks for going through our adventure hope you enjoyed it")
