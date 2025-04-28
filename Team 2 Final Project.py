@@ -8,54 +8,6 @@
 
 
 
-#"Intro", explaining the rules of the game essentially.
-import time
-import random
-"""
-print("Welcome to street craps! Here's how you play")
-time.sleep(2)
-print("First you will enter a bet, there are more rules for craps but for now we will be playing street craps")
-time.sleep(3)
-print("In street craps you place a bet on whether you roll a 7 or 11, if you roll either of these numbers, you win!")
-time.sleep(3)
-print("If you roll a 2,3 or 12 you lose automatically and all money is forfeited.")
-time.sleep(2)
-print("If you roll none of these numbers, then you roll once more, on your second roll you do NOT want a 7")
-time.sleep(3)
-print("Instead you want to roll a 4,5,6,8,9 or 10, you then roll until you get one of these numbers or a 7")
-time.sleep(3)
-print("Optionally, on the second dice roll, you can bet on certain outcomes, such as betting on the dice being two 1's")
-time.sleep(2)
-print("Then you restart the process until you run out of money.")
-#Rules for Street Craps ^^^^^^^^^^^^^
-"""
-
-#Starting money
-TotalBalance = 100
-
-
-def certainOutcomes():
-    continuebet = input("Would you like to bet on any particular result? y/n...")
-    if str(continuebet) == 'y':
-        print("Which result would you like to bet on?")
-        time.sleep(2)
-        print("please put the correlating number to the bet alloted adjacent to it")
-        input("double 1's = 1, double 2's = 2, double 3's = 3, double 4's = 4, double 5's = 5, double 6's = 6, "
-              "1 & a 2 = 7, 6 & a 5 = 8 ")d
-
-    else:
-        print("Let the rolls commence then")
-        pass
-
-certainOutcomes()
-
-
-
-
-
-#Betting on certain outcomes ^^^^^^^^^^
-
-
 import random
 import time
 
@@ -142,8 +94,6 @@ def begining():
     time.sleep(3)
     print("Instead you want to roll a 4,5,6,8,9 or 10, you then roll until you get one of these numbers or a 7")
     time.sleep(3)
-    print("Optionally, on the second dice roll, you can bet on certain outcomes, such as betting on the dice being two 1's")
-    time.sleep(2)
     print("Then you restart the process until you run out of money.")
     time.sleep(2)
     playNY()

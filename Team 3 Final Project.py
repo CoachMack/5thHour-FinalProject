@@ -1,4 +1,4 @@
-#Names: Dom, Ethan, Eli, Quinn
+#Names: Dom Acuna, Ethan Morris, Eli Hopkins, Quinn Dickey
 #Team: 3
 #Class: 5th Hour
 #Assignment: Final Project
@@ -77,4 +77,4 @@ if matched:
         else:
             print("Pick a valid number from the list! 😤")
 else:
-    print("\nNo matches today... time to cry-eat ice cream 😢🍦")
+    print("\nNo matches today... time to cry- 😢")
